@@ -33,6 +33,3 @@ for celebrity in guests:
 del guests[0]
 del guests[0]
 print(guests)
-
-
-
