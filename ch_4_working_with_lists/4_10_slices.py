@@ -14,4 +14,16 @@ Use a slice to print the last three items in the list
 '''
 
 # modifying list from 4_2_animals.py
-animals = ['cat', 'dog', 'bird', 'hamster', 'guinea pig', 'turtle', 'goldfish', 'crab', 'snail', 'lizard']
+animals = ['cat', 'dog', 'bird', 'hamster', 'guinea pig', 'turtle', 'goldfish', 'crab', 'snail', 'frog']
+
+print("The first three items in the list are:")
+for animal in animals[:3]:
+    print(f"  {animal}")
+
+print("\nThree items from the middle of the list are:")
+for animal in animals[3:6]:
+    print(f"  {animal}")
+
+print("\nThe last three items in the list are:")
+for animal in animals[-3:]:
+    print(f"  {animal}")
